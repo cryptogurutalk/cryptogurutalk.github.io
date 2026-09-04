@@ -1,8 +1,8 @@
-# Crosscurrent
-Crosscurrent is an independent crypto bridge news publication.
-It covers cross-chain liquidity, bridge launches, outages, exploits, and protocol upgrades.
-Reporting is written for builders, traders, and users who need clear technical context.
-Crosscurrent is editorially independent and does not provide financial advice.
+# Strait
+Strait is an independent publication covering crypto bridges and the infrastructure that moves value across blockchains.
+It reports on cross-chain transfers, bridge security, incidents, upgrades, governance, and interoperability.
+The site is written for builders, traders, researchers, and readers who want clear context on bridge risk.
+Editorial focus: what changed, who bears the risk, and whether systems work as claimed.
 ## Key pages
-- Home: https://cryptogurutalk.github.io/
-- About: https://cryptogurutalk.github.io/about/
+- [Home](https://cryptogurutalk.github.io/)
+- [About](https://cryptogurutalk.github.io/about/)
