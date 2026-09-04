@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en" data-mode="light" data-preset="ledger">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cross-chain bridge fees, explained — Northbound</title>
+<meta name="description" content="Moving assets across chains still confuses most people, and the fee you pay is rarely the fee you were quoted. Three things decide the real cost: the…">
+<link rel="canonical" href="https://cryptogurutalk.github.io/cross-chain-bridge-fees-explained/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#F4F1EA">
+<meta name="generator" content="Northbound"><meta property="og:type" content="article">
+<meta property="og:site_name" content="Northbound">
+<meta property="og:title" content="Cross-chain bridge fees, explained — Northbound">
+<meta property="og:description" content="Moving assets across chains still confuses most people, and the fee you pay is rarely the fee you were quoted. Three things decide the real cost: the…">
+<meta property="og:url" content="https://cryptogurutalk.github.io/cross-chain-bridge-fees-explained/">
+<meta name="twitter:card" content="summary">
+<meta property="article:published_time" content="2026-09-04T13:00:32">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400..600&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;display=swap">
+<link rel="stylesheet" href="/assets/base.css">
+<link rel="stylesheet" href="/assets/layout.css">
+<link rel="stylesheet" href="/assets/theme.css">
+<link rel="icon" href="/assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="alternate" type="application/rss+xml" title="Northbound" href="/feed.xml"><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://cryptogurutalk.github.io/#org",
+      "name": "Northbound",
+      "url": "https://cryptogurutalk.github.io/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://cryptogurutalk.github.io/#website",
+      "name": "Northbound",
+      "url": "https://cryptogurutalk.github.io/",
+      "publisher": {
+        "@id": "https://cryptogurutalk.github.io/#org"
+      },
+      "description": "Northbound covers crypto bridges, cross-chain security, and safer ways to move value between blockchains, with clear reporting for users and developers."
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://cryptogurutalk.github.io/cross-chain-bridge-fees-explained/#webpage",
+      "url": "https://cryptogurutalk.github.io/cross-chain-bridge-fees-explained/",
+      "name": "Cross-chain bridge fees, explained — Northbound",
+      "isPartOf": {
+        "@id": "https://cryptogurutalk.github.io/#website"
+      }
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://cryptogurutalk.github.io/cross-chain-bridge-fees-explained/#article",
+      "headline": "Cross-chain bridge fees, explained",
+      "description": "Moving assets across chains still confuses most people, and the fee you pay is rarely the fee you were quoted. Three things decide the real cost: the…",
+      "datePublished": "2026-09-04T13:00:32",
+      "dateModified": "2026-09-04T13:00:32",
+      "url": "https://cryptogurutalk.github.io/cross-chain-bridge-fees-explained/",
+      "mainEntityOfPage": {
+        "@id": "https://cryptogurutalk.github.io/cross-chain-bridge-fees-explained/#webpage"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Mara Voss"
+      },
+      "publisher": {
+        "@id": "https://cryptogurutalk.github.io/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://cryptogurutalk.github.io/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Cross-chain bridge fees, explained",
+          "item": "https://cryptogurutalk.github.io/cross-chain-bridge-fees-explained/"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head">
+  <div class="wrap head-inner">
+    <a class="brand" href="/" aria-label="Northbound — home">
+      <span class="brand-mark" aria-hidden="true">NB</span>
+      <span class="brand-name">Northbound</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+<a href="/">Home</a><a href="/">Bridges</a><a href="/about/">About</a>    </nav>
+  </div>
+</header>
+
+<main id="main">
+<article class="article">
+  <div class="wrap">
+    <header class="article-head">
+      <span class="kicker">Bridges</span>
+      <h1>Cross-chain bridge fees, explained</h1>
+<p class="dek">Moving assets across chains still confuses most people, and the fee you pay is rarely the fee you were quoted. Three things decide the real cost: the…</p>      <p class="meta">
+        <span>By Mara Voss</span><span class="dot"></span>
+        <time datetime="2026-09-04T13:00:32">Sep 4, 2026</time><span class="dot"></span>
+        1 min read
+      </p>
+    </header>
+  </div>
+
+
+  <div class="wrap">
+    <div class="article-body prose">
+      <p>Moving assets across chains still confuses most people, and the fee you pay is rarely the fee you were quoted. Three things decide the real cost: the route the aggregator picks, gas on the destination chain, and how deep liquidity is at that moment.</p><h2>Where the cost actually goes</h2><p>On a typical transfer you pay a source-chain gas fee, a bridge or liquidity fee, and destination gas. A routing aggregator like <a href="https://lifibridge.app/" rel="noopener">LiFi Bridge</a> compares paths and picks the cheapest total instead of locking you into a single pool.</p><p>For background, the <a href="https://ethereum.org/en/bridges/" rel="nofollow noopener">Ethereum docs on bridges</a> are a solid primer.</p><h2>How to pay less</h2><ul><li>Bridge larger amounts less often — fixed costs dominate small transfers.</li><li>Check settlement time and slippage before you sign.</li><li>Prefer routes with native destination liquidity.</li></ul><p>A small delay for a better rate is almost always worth it.</p>
+    </div>
+
+  </div>
+</article>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap foot-inner">
+    <div class="foot-brand"><span class="brand-mark small" aria-hidden="true">NB</span> Northbound</div>
+    <p class="foot-note">Northbound is an independent publication, not affiliated with or endorsed by any protocol, exchange, or project it covers; nothing here is financial advice.</p>
+    <p class="foot-meta">© 2026 Northbound · <a href="/about/">About</a> · <a href="/privacy/">Privacy</a></p>
+  </div>
+</footer>
+</body>
+</html>
