@@ -1,0 +1,9 @@
+# Northbound
+Northbound is an independent publication covering crypto bridges and cross-chain infrastructure.
+It explains how value moves between blockchains for users, developers, and researchers.
+Coverage includes bridge launches, exploits, audits, governance, validators, liquidity routes, and security.
+## Key pages
+- Homepage: https://cryptogurutalk.github.io/
+- About: https://cryptogurutalk.github.io/about/
+- Editorial focus: clear reporting on the mechanics and risks of moving value across chains.
+- Publisher: Northbound
