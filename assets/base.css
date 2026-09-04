@@ -88,3 +88,18 @@ p{margin:0 0 1.1em}
 .related-item a:hover{color:var(--accent)}
 .page-simple{max-width:44rem; margin-inline:auto; padding-block:var(--pad-section)}
 .page-simple h1{font-size:clamp(2rem,4vw,2.7rem); margin-bottom:1rem}
+
+/* ── structural variants (per-site, safe — anti-footprint) ── */
+[data-header="stacked"] .head-inner{flex-direction:column; align-items:flex-start; gap:.55rem}
+[data-header="stacked"] .site-nav{gap:1.3rem}
+[data-divider="double"] .section-label{border-bottom-style:double; border-bottom-width:4px}
+[data-divider="thick"] .section-label{border-bottom-width:3px}
+
+/* ── archive listing ── */
+.archive-sub{color:var(--muted); font-size:1.02rem; margin:0}
+.archive-list{display:grid; margin-top:1.6rem}
+.archive-item{display:grid; grid-template-columns:8.5rem 1fr; gap:1rem; align-items:baseline; padding-block:.85rem; border-bottom:1px solid var(--border)}
+.archive-item time{color:var(--muted); font-size:.85rem; font-variant-numeric:tabular-nums}
+.archive-item a{font-family:var(--font-display); font-weight:600; font-size:1.12rem; text-decoration:none; color:var(--text)}
+.archive-item a:hover{color:var(--accent)}
+@media (max-width:560px){ .archive-item{grid-template-columns:1fr; gap:.1rem} }

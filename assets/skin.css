@@ -1,0 +1,25 @@
+body{color:var(--text);background-color:var(--surface);letter-spacing:0.005em}
+.site-head{border-bottom:1px solid var(--border);box-shadow:0 2px 0 var(--accent)}
+.head-inner{letter-spacing:0.01em}
+.brand-name{font-weight:700;letter-spacing:-0.025em}
+.brand-mark{color:var(--accent);border:1px solid var(--accent);border-radius:2px;box-shadow:3px 3px 0 var(--border)}
+.site-nav a{color:var(--muted);letter-spacing:0.08em;text-transform:uppercase;text-decoration-thickness:1px;text-underline-offset:4px}
+.kicker{color:var(--accent);border-left:3px solid var(--accent);padding-left:9px;letter-spacing:0.14em;text-transform:uppercase;font-weight:700}
+.section-label{color:var(--accent);border-bottom:1px solid var(--accent);letter-spacing:0.12em;text-transform:uppercase}
+.btn-primary{background-color:var(--accent);border:1px solid var(--accent);border-radius:2px;box-shadow:3px 3px 0 var(--border);font-weight:700}
+.btn-ghost{border:1px solid var(--border);border-radius:2px;letter-spacing:0.04em}
+.prose a{color:var(--accent);text-decoration-thickness:2px;text-underline-offset:3px}
+.prose blockquote{border-left:3px solid var(--accent);padding-left:16px;font-style:italic;color:var(--muted)}
+.prose h2{letter-spacing:-0.02em;border-bottom:1px solid var(--border);padding-bottom:6px}
+.article-head h1{letter-spacing:-0.04em;text-shadow:1px 1px 0 var(--border)}
+.article-head .dek{color:var(--muted);letter-spacing:0.005em}
+.meta{color:var(--muted);letter-spacing:0.06em;text-transform:uppercase}
+.foot-brand{color:var(--accent);letter-spacing:0.03em;font-weight:700}
+.site-foot{border-top:1px solid var(--border);background-color:var(--surface)}
+.rail-item a{color:var(--text);border-bottom:1px solid var(--border);padding-bottom:5px}
+.story h3{letter-spacing:-0.015em}
+.lead h2{letter-spacing:-0.035em}
+.card{border:1px solid var(--border);border-radius:3px;box-shadow:4px 4px 0 var(--border)}
+.d-item-text h2{letter-spacing:-0.02em}
+hr{border:0;border-top:1px solid var(--border);opacity:0.8}
+.topic{color:var(--accent);border:1px solid var(--accent);border-radius:2px;letter-spacing:0.07em;text-transform:uppercase}

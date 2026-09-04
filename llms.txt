@@ -1,9 +1,8 @@
-# Northbound
-Northbound is an independent publication covering crypto bridges and cross-chain infrastructure.
-It explains how value moves between blockchains for users, developers, and researchers.
-Coverage includes bridge launches, exploits, audits, governance, validators, liquidity routes, and security.
+# Crosscurrent
+Crosscurrent is an independent crypto bridge news publication.
+It covers cross-chain liquidity, bridge launches, outages, exploits, and protocol upgrades.
+Reporting is written for builders, traders, and users who need clear technical context.
+Crosscurrent is editorially independent and does not provide financial advice.
 ## Key pages
-- Homepage: https://cryptogurutalk.github.io/
+- Home: https://cryptogurutalk.github.io/
 - About: https://cryptogurutalk.github.io/about/
-- Editorial focus: clear reporting on the mechanics and risks of moving value across chains.
-- Publisher: Northbound
