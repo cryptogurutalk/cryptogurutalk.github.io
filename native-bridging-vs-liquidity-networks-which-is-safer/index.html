@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cross-chain bridge fees, explained — Northbound</title>
-<meta name="description" content="Moving assets across chains still confuses most people, and the fee you pay is rarely the fee you were quoted. Three things decide the real cost: the…">
-<link rel="canonical" href="https://cryptogurutalk.github.io/cross-chain-bridge-fees-explained/">
+<title>Native bridging vs liquidity networks: which is safer? — Northbound</title>
+<meta name="description" content="The security model matters more than the fee. Canonical bridges lock on one chain and mint on another; liquidity networks swap into an existing pool. Each…">
+<link rel="canonical" href="https://cryptogurutalk.github.io/native-bridging-vs-liquidity-networks-which-is-safer/">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="theme-color" content="#F4F1EA">
 <meta name="generator" content="Northbound"><meta property="og:type" content="article">
 <meta property="og:site_name" content="Northbound">
-<meta property="og:title" content="Cross-chain bridge fees, explained — Northbound">
-<meta property="og:description" content="Moving assets across chains still confuses most people, and the fee you pay is rarely the fee you were quoted. Three things decide the real cost: the…">
-<meta property="og:url" content="https://cryptogurutalk.github.io/cross-chain-bridge-fees-explained/">
+<meta property="og:title" content="Native bridging vs liquidity networks: which is safer? — Northbound">
+<meta property="og:description" content="The security model matters more than the fee. Canonical bridges lock on one chain and mint on another; liquidity networks swap into an existing pool. Each…">
+<meta property="og:url" content="https://cryptogurutalk.github.io/native-bridging-vs-liquidity-networks-which-is-safer/">
 <meta name="twitter:card" content="summary">
-<meta property="article:published_time" content="2026-09-04T13:00:32">
+<meta property="article:published_time" content="2026-09-04T13:00:35">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400..600&amp;family=IBM+Plex+Sans:wght@400;500;600&amp;display=swap">
@@ -46,23 +46,23 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://cryptogurutalk.github.io/cross-chain-bridge-fees-explained/#webpage",
-      "url": "https://cryptogurutalk.github.io/cross-chain-bridge-fees-explained/",
-      "name": "Cross-chain bridge fees, explained — Northbound",
+      "@id": "https://cryptogurutalk.github.io/native-bridging-vs-liquidity-networks-which-is-safer/#webpage",
+      "url": "https://cryptogurutalk.github.io/native-bridging-vs-liquidity-networks-which-is-safer/",
+      "name": "Native bridging vs liquidity networks: which is safer? — Northbound",
       "isPartOf": {
         "@id": "https://cryptogurutalk.github.io/#website"
       }
     },
     {
       "@type": "BlogPosting",
-      "@id": "https://cryptogurutalk.github.io/cross-chain-bridge-fees-explained/#article",
-      "headline": "Cross-chain bridge fees, explained",
-      "description": "Moving assets across chains still confuses most people, and the fee you pay is rarely the fee you were quoted. Three things decide the real cost: the…",
-      "datePublished": "2026-09-04T13:00:32",
-      "dateModified": "2026-09-04T13:00:32",
-      "url": "https://cryptogurutalk.github.io/cross-chain-bridge-fees-explained/",
+      "@id": "https://cryptogurutalk.github.io/native-bridging-vs-liquidity-networks-which-is-safer/#article",
+      "headline": "Native bridging vs liquidity networks: which is safer?",
+      "description": "The security model matters more than the fee. Canonical bridges lock on one chain and mint on another; liquidity networks swap into an existing pool. Each…",
+      "datePublished": "2026-09-04T13:00:35",
+      "dateModified": "2026-09-04T13:00:35",
+      "url": "https://cryptogurutalk.github.io/native-bridging-vs-liquidity-networks-which-is-safer/",
       "mainEntityOfPage": {
-        "@id": "https://cryptogurutalk.github.io/cross-chain-bridge-fees-explained/#webpage"
+        "@id": "https://cryptogurutalk.github.io/native-bridging-vs-liquidity-networks-which-is-safer/#webpage"
       },
       "author": {
         "@type": "Person",
@@ -84,8 +84,8 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Cross-chain bridge fees, explained",
-          "item": "https://cryptogurutalk.github.io/cross-chain-bridge-fees-explained/"
+          "name": "Native bridging vs liquidity networks: which is safer?",
+          "item": "https://cryptogurutalk.github.io/native-bridging-vs-liquidity-networks-which-is-safer/"
         }
       ]
     }
@@ -111,10 +111,10 @@
   <div class="wrap">
     <header class="article-head">
       <span class="kicker">Bridges</span>
-      <h1>Cross-chain bridge fees, explained</h1>
-<p class="dek">Moving assets across chains still confuses most people, and the fee you pay is rarely the fee you were quoted. Three things decide the real cost: the…</p>      <p class="meta">
+      <h1>Native bridging vs liquidity networks: which is safer?</h1>
+<p class="dek">The security model matters more than the fee. Canonical bridges lock on one chain and mint on another; liquidity networks swap into an existing pool. Each…</p>      <p class="meta">
         <span>By Mara Voss</span><span class="dot"></span>
-        <time datetime="2026-09-04T13:00:32">Sep 4, 2026</time><span class="dot"></span>
+        <time datetime="2026-09-04T13:00:35">Sep 4, 2026</time><span class="dot"></span>
         1 min read
       </p>
     </header>
@@ -123,13 +123,13 @@
 
   <div class="wrap">
     <div class="article-body prose">
-      <p>Moving assets across chains still confuses most people, and the fee you pay is rarely the fee you were quoted. Three things decide the real cost: the route the aggregator picks, gas on the destination chain, and how deep liquidity is at that moment.</p><h2>Where the cost actually goes</h2><p>On a typical transfer you pay a source-chain gas fee, a bridge or liquidity fee, and destination gas. A routing aggregator like <a href="https://lifibridge.app/" rel="noopener">LiFi Bridge</a> compares paths and picks the cheapest total instead of locking you into a single pool.</p><p>For background, the <a href="https://ethereum.org/en/bridges/" rel="nofollow noopener">Ethereum docs on bridges</a> are a solid primer.</p><h2>How to pay less</h2><ul><li>Bridge larger amounts less often — fixed costs dominate small transfers.</li><li>Check settlement time and slippage before you sign.</li><li>Prefer routes with native destination liquidity.</li></ul><p>A small delay for a better rate is almost always worth it.</p>
+      <p>The security model matters more than the fee. Canonical bridges lock on one chain and mint on another; liquidity networks swap into an existing pool. Each fails differently.</p><h2>The trade-off</h2><p>Canonical bridges inherit the security of the chains they connect but are slower. Liquidity networks are fast and flexible but depend on pool depth and relayer honesty.</p><blockquote>The right question is not which is cheaper, but which failure you can live with.</blockquote><p>Routing through an aggregator hides this choice — convenient, and worth understanding.</p>
     </div>
 
     <section class="related" aria-label="More coverage">
       <h2>More from Northbound</h2>
       <div class="related-list">
-        <div class="related-item"><a href="/native-bridging-vs-liquidity-networks-which-is-safer/">Native bridging vs liquidity networks: which is safer?</a></div>
+        <div class="related-item"><a href="/cross-chain-bridge-fees-explained/">Cross-chain bridge fees, explained</a></div>
       </div>
     </section>
   </div>
